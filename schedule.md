@@ -94,10 +94,10 @@ The schedules below are provided as examples only. Feel free to create the right
   </tr>
   <tr>
     <td>9:30</td>
-    <td rowspan="2"></td>
-    <td rowspan="6">functions</td>
-    <td rowspan="4">intermed<br>python<br>discussion</td>
-    <td rowspan="6">pandas</td>
+    <td rowspan="2">---</td>
+    <td rowspan="6"><a href="unit-2-control-flow/instructor-resources/08-functions">functions</a></td>
+    <td rowspan="4"><a href="unit-5-intermediate/instructor-resources/20-intermediate-intro">intermed python</a></td>
+    <td rowspan="6"><a href="unit-6-pandas/instructor-resources/05-pandas-ii">pandas ii</a></td>
     <td rowspan="12">capstone<br>project</td>
   </tr>
   <tr>
@@ -109,11 +109,11 @@ The schedules below are provided as examples only. Feel free to create the right
   </tr>
   <tr>
     <td>9:45</td>
-    <td rowspan="2">python <br>installation</td>
+    <td rowspan="2"><a href="unit-1-variables/instructor-resources/03-local-python">python installation</a></td>
   </tr>
   <tr>
     <td>10:00</td>
-    <td rowspan="2">scripting</td>
+    <td rowspan="2"><a href="unit-5-intermediate/instructor-resources/21-scripting">scripting</a></td>
   </tr>
   <tr>
     <td>10:15</td>
@@ -127,25 +127,24 @@ The schedules below are provided as examples only. Feel free to create the right
   </tr>
   <tr>
     <td>10:45</td>
-    <td>functions</td>
-    <td rowspan="3">variable<br>scope</td>
-    <td rowspan="4">pandas</td>
+    <td><a href="unit-2-control-flow/instructor-resources/08-functions">functions</a></td>
+    <td rowspan="3"><a href="unit-4-troubleshooting/instructor-resources/16-variable-scope">variable scope</a></td>
+    <td rowspan="5"><a href="unit-6-pandas/instructor-resources/03-data-viz">pandas viz</a></td>
   </tr>
   <tr>
     <td>11:00</td>
-    <td rowspan="4">lab 2:<br>flow<br>control</td>
+    <td rowspan="4"><a href="unit-2-control-flow/instructor-resources/10-unit-lab-2">lab 2:flow control</a></td>
   </tr>
   <tr>
     <td>11:15</td>
-    <td rowspan="3">defining<br>variables</td>
+    <td rowspan="3"><a href="unit-1-variables/instructor-resources/02-variables">defining variables</a></td>
   </tr>
   <tr>
     <td>11:30</td>
-    <td rowspan="2">debugging<br>principles</td>
+    <td rowspan="2"><a href="unit-4-troubleshooting/instructor-resources/18-debugging">debugging</a></td>
   </tr>
   <tr>
     <td>11:45</td>
-    <td>pandas<br>visualization</td>
   </tr>
   <tr>
     <td>12:00</td>
@@ -160,10 +159,10 @@ The schedules below are provided as examples only. Feel free to create the right
   </tr>
   <tr>
     <td>12:30</td>
-    <td rowspan="4">conditionals</td>
-    <td rowspan="3">dictionaries</td>
-    <td rowspan="2">apis</td>
-    <td rowspan="6">pandas<br>visualization</td>
+    <td rowspan="4"><a href="unit-2-control-flow/instructor-resources/05-conditionals">conditionals</a></td>
+    <td rowspan="3"><a href="unit-3-oop/instructor-resources/11-dictionaries">dictionaries</a></td>
+    <td rowspan="2"><a href="unit-5-intermediate/instructor-resources/24-apis">apis</a></td>
+    <td rowspan="9"><a href="unit-6-pandas/instructor-resources/06-pandas-unit-lab">pandas lab</a><br><a href="unit-6-pandas/instructor-resources/06-pandas-unit-lab">(imdb)</a></td>
     <td rowspan="8">capstone<br>project</td>
   </tr>
   <tr>
@@ -171,31 +170,31 @@ The schedules below are provided as examples only. Feel free to create the right
   </tr>
   <tr>
     <td>13:00</td>
-    <td rowspan="6">pandas<br>intro</td>
+    <td><a href="unit-6-pandas/instructor-resources/01-ds-intro">ds intro</a></td>
   </tr>
   <tr>
     <td>13:15</td>
-    <td rowspan="2">sets and<br>tuples</td>
+    <td rowspan="2"><a href="unit-3-oop/instructor-resources/12-sets-tuples">sets and tuples</a></td>
+    <td rowspan="5"><a href="unit-6-pandas/instructor-resources/02-pandas-i">pandas i </a></td>
   </tr>
   <tr>
     <td>13:30</td>
-    <td rowspan="5">loops</td>
+    <td rowspan="5"><a href="unit-2-control-flow/instructor-resources/07-loops">loops</a></td>
   </tr>
   <tr>
     <td>13:45</td>
-    <td rowspan="2">modules</td>
+    <td rowspan="2"><a href="unit-5-intermediate/instructor-resources/23-modules">modules</a></td>
   </tr>
   <tr>
     <td>14:00</td>
-    <td rowspan="3">data lab<br>(imdb / <br>rotten<br>tomatoes)</td>
   </tr>
   <tr>
     <td>14:15</td>
-    <td rowspan="2">classes</td>
+    <td rowspan="2"><a href="unit-3-oop/instructor-resources/13-classes">classes</a></td>
   </tr>
   <tr>
     <td>14:30</td>
-    <td>project intro</td>
+    <td><a href="unit-7-data-wrap-up/instructor-resources/02-project">project intro</a></td>
     <td rowspan="8">presentations</td>
   </tr>
   <tr>
@@ -207,24 +206,23 @@ The schedules below are provided as examples only. Feel free to create the right
   </tr>
   <tr>
     <td>15:00</td>
-    <td rowspan="10">d1<br>practice <br>exercises</td>
-    <td rowspan="2">classes<br>cont'</td>
-    <td rowspan="8">d3<br>practice<br>exercises</td>
-    <td rowspan="4">data lab<br>(imdb / <br>rotten<br>tomatoes)</td>
+    <td rowspan="10"><a href="unit-2-control-flow/instructor-resources/hw-5day-day-1">d1</a><br><a href="unit-2-control-flow/instructor-resources/hw-5day-day-1">practice </a><br><a href="unit-2-control-flow/instructor-resources/hw-5day-day-1">exercises</a></td>
+    <td rowspan="2"><a href="unit-3-oop/instructor-resources/13-classes">classes cont'</a></td>
+    <td rowspan="8"><a href="unit-5-intermediate/instructor-resources/hw-5day-day3">d3</a><br><a href="unit-5-intermediate/instructor-resources/hw-5day-day3">practice</a><br><a href="unit-5-intermediate/instructor-resources/hw-5day-day3">exercises</a></td>
+    <td rowspan="8">capstone<br>project</td>
   </tr>
   <tr>
     <td>15:15</td>
   </tr>
   <tr>
     <td>15:30</td>
-    <td rowspan="6">d2<br>practice<br>exercises</td>
+    <td rowspan="6"><a href="unit-4-troubleshooting/instructor-resources/hw-5day-day2">d2</a><br><a href="unit-4-troubleshooting/instructor-resources/hw-5day-day2">practice</a><br><a href="unit-4-troubleshooting/instructor-resources/hw-5day-day2">exercises</a></td>
   </tr>
   <tr>
     <td>15:45</td>
   </tr>
   <tr>
     <td>16:00</td>
-    <td rowspan="4">capstone<br>project</td>
   </tr>
   <tr>
     <td>16:15</td>
@@ -235,7 +233,7 @@ The schedules below are provided as examples only. Feel free to create the right
   </tr>
   <tr>
     <td>16:45</td>
-    <td rowspan="5"></td>
+    <td rowspan="5">---</td>
   </tr>
   <tr>
     <td>17:00</td>
