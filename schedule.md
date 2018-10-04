@@ -105,7 +105,7 @@ The schedules below are provided as examples only. Feel free to create the right
   </tr>
   <tr>
     <td>9:30</td>
-    <td>course intro</td>
+    <td><a href="unit-1-variables/instructor-resources/01-welcome">course intro</a></td>
   </tr>
   <tr>
     <td>9:45</td>
