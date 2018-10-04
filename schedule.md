@@ -95,265 +95,163 @@ The schedules below are provided as examples only. Feel free to create the right
   <tr>
     <td>9:30</td>
     <td rowspan="2"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="6">functions</td>
+    <td rowspan="4">intermed<br>python<br>discussion</td>
+    <td rowspan="6">pandas</td>
+    <td rowspan="12">capstone<br>project</td>
   </tr>
   <tr>
     <td>9:15</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>9:30</td>
     <td>course intro</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>9:45</td>
     <td rowspan="2">python <br>installation</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>10:00</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">scripting</td>
   </tr>
   <tr>
     <td>10:15</td>
     <td rowspan="4">slack, <br>command<br>line, jupyter,<br>envs</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>10:30</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>break</td>
+    <td>break</td>
+    <td>break</td>
   </tr>
   <tr>
     <td>10:45</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>functions</td>
+    <td rowspan="3">variable<br>scope</td>
+    <td rowspan="4">pandas</td>
   </tr>
   <tr>
     <td>11:00</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="4">lab 2:<br>flow<br>control</td>
   </tr>
   <tr>
     <td>11:15</td>
     <td rowspan="3">defining<br>variables</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>11:30</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">debugging<br>principles</td>
   </tr>
   <tr>
     <td>11:45</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>pandas<br>visualization</td>
   </tr>
   <tr>
     <td>12:00</td>
     <td rowspan="2">lunch</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">lunch</td>
+    <td rowspan="2">lunch</td>
+    <td rowspan="2">lunch</td>
+    <td rowspan="2">lunch</td>
   </tr>
   <tr>
     <td>12:15</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>12:30</td>
     <td rowspan="4">conditionals</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="3">dictionaries</td>
+    <td rowspan="2">apis</td>
+    <td rowspan="6">pandas<br>visualization</td>
+    <td rowspan="8">capstone<br>project</td>
   </tr>
   <tr>
     <td>12:45</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>13:00</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="6">pandas<br>intro</td>
   </tr>
   <tr>
     <td>13:15</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">sets and<br>tuples</td>
   </tr>
   <tr>
     <td>13:30</td>
     <td rowspan="5">loops</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>13:45</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">modules</td>
   </tr>
   <tr>
     <td>14:00</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="3">data lab<br>(imdb / <br>rotten<br>tomatoes)</td>
   </tr>
   <tr>
     <td>14:15</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="2">classes</td>
   </tr>
   <tr>
     <td>14:30</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>project intro</td>
+    <td rowspan="8">presentations</td>
   </tr>
   <tr>
     <td>14:45</td>
     <td>break / tickets<br></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>break / tickets</td>
+    <td>break / tickets</td>
+    <td>break / tickets</td>
   </tr>
   <tr>
     <td>15:00</td>
-    <td rowspan="10">D1<br>practice <br>exercises</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="10">d1<br>practice <br>exercises</td>
+    <td rowspan="2">classes<br>cont'</td>
+    <td rowspan="8">d3<br>practice<br>exercises</td>
+    <td rowspan="4">data lab<br>(imdb / <br>rotten<br>tomatoes)</td>
   </tr>
   <tr>
     <td>15:15</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>15:30</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="6">d2<br>practice<br>exercises</td>
   </tr>
   <tr>
     <td>15:45</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>16:00</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="4">capstone<br>project</td>
   </tr>
   <tr>
     <td>16:15</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>16:30</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>exit survey</td>
   </tr>
   <tr>
     <td>16:45</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="5"></td>
   </tr>
   <tr>
     <td>17:00</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td rowspan="4">office<br>hours</td>
+    <td rowspan="4">office<br>hours</td>
+    <td rowspan="4">office <br>hours</td>
   </tr>
   <tr>
     <td>17:15</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>17:30</td>
     <td rowspan="2">office<br>hours</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>17:45</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
 </table>
 
