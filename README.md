@@ -32,11 +32,14 @@ Windows has no native git support, so it must be downloaded from [here](https://
       <p align="center"><img src="./assets/gitbash0.png" width="800"></p>
     </details>
   </li>
+  <li>
+    <details>
+      <summary>Check for updates daily.</summary>
+      <p align="center"><img src="./assets/gitbash1.png" width="800"></p>
+    </details>
+  </li>
 </ul>
-    
-<p align="center"><img src="./assets/gitbash1.png" width="800"></p>
 
-Check for updates daily.
 
 <p align="center"><img src="./assets/gitbash2.png" width="800"></p>
 
