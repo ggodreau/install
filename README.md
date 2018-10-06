@@ -25,7 +25,7 @@ git version 2.17.1
 
 Windows has no native git support, so it must be downloaded from [here](https://git-scm.com/download/win)
 
-<ul>
+<ol>
   <li>
     <details>
       <summary>Open the installation executable and accept the default directory.</summary>
@@ -68,14 +68,14 @@ Windows has no native git support, so it must be downloaded from [here](https://
       <p align="center"><img src="./assets/gitbash6.png" width="800"></p>
     </details>
   </li>
-</ul>
+</ol>
 
 
 ## Base Python Installation
 
 ### Windows
 
-<ul>
+<ol>
   <li>
     <details>
       <summary>First, head over to <a href="https://www.python.org/downloads/windows/">python.org</a>. Click on the latest release for <b>Python 3</b> (do not use Python 2!!).</summary>
@@ -204,6 +204,7 @@ Windows has no native git support, so it must be downloaded from [here](https://
     The returned results should be <code>Python 3.x.x</code> with no errors (no text in red).
     </details>
   </li>
+</ol>
 
 ## Part 2. Anaconda Installation
 
