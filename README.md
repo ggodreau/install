@@ -75,40 +75,44 @@ Windows has no native git support, so it must be downloaded from [here](https://
 
 ### Windows
 
-First, head over to [python.org](https://www.python.org/downloads/windows/). Click on the latest release for *Python 3* (do not use Python 2!!).
-
-<p align="center"><img src="./assets/py1.png" width="800"></p>
-
-
-That will bring you to this page. Click on the *Windows x86-64 executable installer* link. 
-
-<p align="center"><img src="./assets/py2.png" width="800"></p>
-
-
-Select a location to save the file to. Here, I've saved the file to my desktop. If you'd like to verify that the file downloaded correctly, you can run an [md5 checksum](https://en.wikipedia.org/wiki/Md5sum) on the file by using `md5sum.exe` (this comes bundled with gitbash) and verify the returned string (here shown ending in `be3e`) matches the checksum displayed on the webpage. 
-
-<p align="center"><img src="./assets/py3.png" width="800"></p>
-
-Run the installer by double clicking on it. *Uncheck* 'Add Python 3.x to PATH'. Click on 'Customize installation'.
-
-<p align="center"><img src="./assets/py4.png" width="800"></p>
-
-*Uncheck* 'tcl/tk and IDLE' installer.
-
-<p align="center"><img src="./assets/py5.png" width="800"></p>
-
-*Check* 'Add Python to environment variables'. *This is very important!!!*
-Your install location should be `<Drive letter>:\Users\<username>\AppData\Local\Programs\Python\Python37`.
-
-<p align="center"><img src="./assets/py6.png" width="800"></p>
-
-Your installation should display the below screen if successful. You do *not* need to disable path length limit.
-
-<p align="center"><img src="./assets/py7.png" width="800"></p>
-
-
-
-
+<ul>
+  <li>
+    <details>
+      <summary>First, head over to [python.org](https://www.python.org/downloads/windows/). Click on the latest release for *Python 3* (do not use Python 2!!).</summary>
+      <p align="center"><img src="./assets/py1.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+    <summary>That will bring you to this page. Click on the *Windows x86-64 executable installer* link.</summary>
+    </details>
+    <p align="center"><img src="./assets/py2.png" width="800"></p>
+  </li>
+  <li>
+    <details>
+    <summary>Select a location to save the file to. Here, I've saved the file to my desktop. If you'd like to verify that the file downloaded correctly, you can run an [md5 checksum](https://en.wikipedia.org/wiki/Md5sum) on the file by using `md5sum.exe` (this comes bundled with gitbash) and verify the returned string (here shown ending in `be3e`) matches the checksum displayed on the webpage.</summary>
+    </details>
+    <p align="center"><img src="./assets/py3.png" width="800"></p>
+  </li>
+  <li>
+    <details>
+    <summary>Run the installer by double clicking on it. *Uncheck* 'Add Python 3.x to PATH'. Click on 'Customize installation'.</summary>
+    </details>
+    <p align="center"><img src="./assets/py5.png" width="800"></p>
+  </li>
+  <li>
+    <details>
+    <summary>*Check* 'Add Python to environment variables'. *This is very important!!!* Your install location should be `<Drive letter>:\Users\<username>\AppData\Local\Programs\Python\Python37`. </summary>
+    </details>
+    <p align="center"><img src="./assets/py6.png" width="800"></p>
+  </li>
+  <li>
+    <details>
+    <summary>Your installation should display the below screen if successful. You do *not* need to disable path length limit.</summary>
+    </details>
+    <p align="center"><img src="./assets/py7.png" width="800"></p>
+  </li>
+</ul>
 
 ## Part 2. Anaconda Installation
 
