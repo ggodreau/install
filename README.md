@@ -38,28 +38,37 @@ Windows has no native git support, so it must be downloaded from [here](https://
       <p align="center"><img src="./assets/gitbash1.png" width="800"></p>
     </details>
   </li>
+  <li>
+    <details>
+      <summary>Use vim as the default text editor.</summary>
+      <p align="center"><img src="./assets/gitbash2.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>This should be 'Use Git from Git Bash only' Needs changed.</summary>
+      <p align="center"><img src="./assets/gitbash3.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Change to 'Checkout as-is, commit Unix-style line endings.'</summary>
+      <p align="center"><img src="./assets/gitbash4.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Uncheck the two boxes and click finish.</summary>
+      <p align="center"><img src="./assets/gitbash5.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>Open git bash via the desktop or start menu icons.</summary>
+      <p align="center"><img src="./assets/gitbash6.png" width="800"></p>
+    </details>
+  </li>
 </ul>
-
-
-<p align="center"><img src="./assets/gitbash2.png" width="800"></p>
-
-Use vim as the default text editor.
-
-<p align="center"><img src="./assets/gitbash3.png" width="800"></p>
-
-This should be 'Use Git from Git Bash only'. Needs changed.
-
-<p align="center"><img src="./assets/gitbash4.png" width="800"></p>
-
-Change to 'Checkout as-is, commit Unix-style line endings'.
-
-<p align="center"><img src="./assets/gitbash5.png" width="800"></p>
-
-Uncheck the two boxes and click finish.
-
-<p align="center"><img src="./assets/gitbash6.png" width="800"></p>
-
-Open git bash via the desktop or start menu icons.
 
 
 ## Base Python Installation
