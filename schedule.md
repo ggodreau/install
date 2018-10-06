@@ -83,8 +83,6 @@ This course may be taught online or in-person, in a [10-week](#10-week-pacing) o
 
 ## Suggested Pacing Guide
 The schedules below are provided as examples only. Feel free to create the right pace of lessons and activities for your students in order to ensure the required learning objectives are met. **Note:** These links will be live when the markdown files are available on Sept. 7
-#### Proposed pacing
-
 
 #### 1 Week Pacing
 
