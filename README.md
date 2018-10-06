@@ -8,6 +8,16 @@ However, there is a growing need for (and interest in) data science in industrie
 
 Click [here to download the Git Bash shell](https://gitforwindows.org/). This will allow you to emulate most of the common commands and functions native to OS and Linux systems.
 
+## Base Python Installation
+
+
+XXX
+
+<p align="center">
+<img src="./assets/py21.png" width="800">
+</p>
+
+
 ## Part 2. Anaconda Installation
 
 In this course, we'll be working closely with tools that utilize the Python programming language. Anaconda is a popular cross-platform tool that helps install and manage Python-related data science libraries.
