@@ -186,6 +186,7 @@ Windows has no native git support, so it must be downloaded from [here](https://
   <li>
     <details>
     <summary>Finally, test all the dependent libraries and python version using the following code.</summary>
+    <br>
     <pre>
       import pandas as pd
       import matplotlib
