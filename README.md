@@ -23,9 +23,8 @@ git version 2.17.1
 
 ### Windows
 
-- Windows has no native git support, so it must be downloaded from [here](https://git-scm.com/download/win)
 <details>
- <summary>Screenshot</summary>
+ <summary>Windows has no native git support, so it must be downloaded from [here](https://git-scm.com/download/win)</summary>
 <p align="center"><img src="./assets/gitbash0.png" width="800"></p>
 </details>
 
