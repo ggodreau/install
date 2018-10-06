@@ -23,12 +23,12 @@ git version 2.17.1
 
 ### Windows
 
-<details>
- <summary>Windows has no native git support, so it must be downloaded from [here](https://git-scm.com/download/win)</summary>
-<p align="center"><img src="./assets/gitbash0.png" width="800"></p>
-</details>
+Windows has no native git support, so it must be downloaded from [here](https://git-scm.com/download/win)
 
-Open the installation executable and accept the default directory.k
+<details>
+  <summary>Open the installation executable and accept the default directory.</summary>
+  <p align="center"><img src="./assets/gitbash0.png" width="800"></p>
+</details>
 
 <p align="center"><img src="./assets/gitbash1.png" width="800"></p>
 
