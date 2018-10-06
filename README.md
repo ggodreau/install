@@ -8,14 +8,89 @@ However, there is a growing need for (and interest in) data science in industrie
 
 Click [here to download the Git Bash shell](https://gitforwindows.org/). This will allow you to emulate most of the common commands and functions native to OS and Linux systems.
 
+## Git Bash Download
+
+### Mac
+
+- Open a terminal by hitting the apple key + spacebar, and typing 'terminal' in the spotlight search. Open the Terminal application.
+- Type `git --version` in the terminal and hit enter
+- The returned version of git should be a major version of 2.x.x or greater, for example:
+
+```bash
+[greg@13z]$ git --version
+git version 2.17.1
+```
+
+### Windows
+
+- Windows has no native git support, so it must be downloaded from [here](https://git-scm.com/download/win)
+
+<p align="center"><img src="./assets/gitbash0.png" width="800"></p>
+
+Open the installation executable and accept the default directory.k
+
+<p align="center"><img src="./assets/gitbash1.png" width="800"></p>
+
+Check for updates daily.
+
+<p align="center"><img src="./assets/gitbash2.png" width="800"></p>
+
+Use vim as the default text editor.
+
+<p align="center"><img src="./assets/gitbash3.png" width="800"></p>
+
+This should be 'Use Git from Git Bash only'. Needs changed.
+
+<p align="center"><img src="./assets/gitbash4.png" width="800"></p>
+
+Change to 'Checkout as-is, commit Unix-style line endings'.
+
+<p align="center"><img src="./assets/gitbash5.png" width="800"></p>
+
+Uncheck the two boxes and click finish.
+
+<p align="center"><img src="./assets/gitbash6.png" width="800"></p>
+
+Open git bash via the desktop or start menu icons.
+
+
 ## Base Python Installation
 
+### Windows
 
-XXX
+First, head over to [python.org](https://www.python.org/downloads/windows/). Click on the latest release for *Python 3* (do not use Python 2!!).
 
-<p align="center">
-<img src="./assets/py21.png" width="800">
-</p>
+<p align="center"><img src="./assets/py1.png" width="800"></p>
+
+
+That will bring you to this page. Click on the *Windows x86-64 executable installer* link. 
+
+<p align="center"><img src="./assets/py2.png" width="800"></p>
+
+
+Select a location to save the file to. Here, I've saved the file to my desktop. If you'd like to verify that the file downloaded correctly, you can run an [md5 checksum](https://en.wikipedia.org/wiki/Md5sum) on the file by using `md5sum.exe` (this comes bundled with gitbash) and verify the returned string (here shown ending in `be3e`) matches the checksum displayed on the webpage. 
+
+<p align="center"><img src="./assets/py3.png" width="800"></p>
+
+Run the installer by double clicking on it. *Uncheck* 'Add Python 3.x to PATH'. Click on 'Customize installation'.
+
+<p align="center"><img src="./assets/py4.png" width="800"></p>
+
+*Uncheck* 'tcl/tk and IDLE' installer.
+
+<p align="center"><img src="./assets/py5.png" width="800"></p>
+
+*Check* 'Add Python to environment variables'. *This is very important!!!*
+Your install location should be `<Drive letter>:\Users\<username>\AppData\Local\Programs\Python\Python37`.
+
+<p align="center"><img src="./assets/py6.png" width="800"></p>
+
+Your installation should display the below screen if successful. You do *not* need to disable path length limit.
+
+<p align="center"><img src="./assets/py7.png" width="800"></p>
+
+
+
 
 
 ## Part 2. Anaconda Installation
