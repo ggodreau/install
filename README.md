@@ -90,7 +90,7 @@ Windows has no native git support, so it must be downloaded from [here](https://
   </li>
   <li>
     <details>
-    <summary>Select a location to save the file to. Here, I've saved the file to my desktop. If you'd like to verify that the file downloaded correctly, you can run an <a href="https://en.wikipedia.org/wiki/Md5sum">md5 checksum</a> on the file by using `md5sum.exe` (this comes bundled with gitbash) and verify the returned string (here shown ending in `be3e`) matches the checksum displayed on the webpage.</summary>
+    <summary>Select a location to save the file to. Here, I've saved the file to my desktop. If you'd like to verify that the file downloaded correctly, you can run an <a href="https://en.wikipedia.org/wiki/Md5sum">md5 checksum</a> on the file by using <code>md5sum.exe</code> (this comes bundled with gitbash) and verify the returned string (here shown ending in `be3e`) matches the checksum displayed on the webpage.</summary>
     <p align="center"><img src="./assets/py3.png" width="800"></p>
     </details>
   </li>
@@ -102,7 +102,7 @@ Windows has no native git support, so it must be downloaded from [here](https://
   </li>
   <li>
     <details>
-    <summary>*Check* 'Add Python to environment variables'. *This is very important!!!* Your install location should be `<Drive letter>:\Users\<username>\AppData\Local\Programs\Python\Python37`. </summary>
+    <summary>*Check* 'Add Python to environment variables'. *This is very important!!!* Your install location should be <code><Drive letter>:\Users\<username>\AppData\Local\Programs\Python\Python37</code>. </summary>
     <p align="center"><img src="./assets/py6.png" width="800"></p>
     </details>
   </li>
