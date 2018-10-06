@@ -1,3 +1,5 @@
+<!-- the schedule tables were made using https://www.tablesgenerator.com/html_tables and ./assets/schedule.tgn. Note that links must be prefixed by https://, which then need to be post-processed (find and replace) to make relative links -->
+
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
 ### Instructor Guide
@@ -83,6 +85,11 @@ This course may be taught online or in-person, in a [10-week](#10-week-pacing) o
 The schedules below are provided as examples only. Feel free to create the right pace of lessons and activities for your students in order to ensure the required learning objectives are met. **Note:** These links will be live when the markdown files are available on Sept. 7
 #### Proposed pacing
 
+
+#### 1 Week Pacing
+
+You can also [view this in a Trello board here](https://trello.com/invite/b/U7Exj4XJ/cb991c85cedbaa30789098d6d6697470/python-programming-5-day-schedule).
+
 <table>
   <tr>
     <th></th>
@@ -98,7 +105,7 @@ The schedules below are provided as examples only. Feel free to create the right
     <td rowspan="6"><a href="unit-2-control-flow/instructor-resources/08-functions">functions</a></td>
     <td rowspan="4"><a href="unit-5-intermediate/instructor-resources/20-intermediate-intro">intermed python</a></td>
     <td rowspan="6"><a href="unit-6-pandas/instructor-resources/05-pandas-ii">pandas ii</a></td>
-    <td rowspan="12">capstone<br>project</td>
+    <td rowspan="12"><a href="unit-7-data-wrap-up/instructor-resources/02-project/README.md">capstone</a><br><a href="unit-7-data-wrap-up/instructor-resources/02-project/README.md">project</a></td>
   </tr>
   <tr>
     <td>9:15</td>
@@ -163,7 +170,7 @@ The schedules below are provided as examples only. Feel free to create the right
     <td rowspan="3"><a href="unit-3-oop/instructor-resources/11-dictionaries">dictionaries</a></td>
     <td rowspan="2"><a href="unit-5-intermediate/instructor-resources/24-apis">apis</a></td>
     <td rowspan="9"><a href="unit-6-pandas/instructor-resources/06-pandas-unit-lab">pandas lab</a><br><a href="unit-6-pandas/instructor-resources/06-pandas-unit-lab">(imdb)</a></td>
-    <td rowspan="8">capstone<br>project</td>
+    <td rowspan="8"><a href="unit-7-data-wrap-up/instructor-resources/02-project/README.md">capstone</a><br><a href="unit-7-data-wrap-up/instructor-resources/02-project/README.md">project</a></td>
   </tr>
   <tr>
     <td>12:45</td>
@@ -209,7 +216,7 @@ The schedules below are provided as examples only. Feel free to create the right
     <td rowspan="10"><a href="unit-2-control-flow/instructor-resources/hw-5day-day-1">d1</a><br><a href="unit-2-control-flow/instructor-resources/hw-5day-day-1">practice </a><br><a href="unit-2-control-flow/instructor-resources/hw-5day-day-1">exercises</a></td>
     <td rowspan="2"><a href="unit-3-oop/instructor-resources/13-classes">classes cont'</a></td>
     <td rowspan="8"><a href="unit-5-intermediate/instructor-resources/hw-5day-day3">d3</a><br><a href="unit-5-intermediate/instructor-resources/hw-5day-day3">practice</a><br><a href="unit-5-intermediate/instructor-resources/hw-5day-day3">exercises</a></td>
-    <td rowspan="8">capstone<br>project</td>
+    <td rowspan="8"><a href="unit-7-data-wrap-up/instructor-resources/02-project/README.md">capstone</a><br><a href="unit-7-data-wrap-up/instructor-resources/02-project/README.md">project</a></td>
   </tr>
   <tr>
     <td>15:15</td>
@@ -253,79 +260,6 @@ The schedules below are provided as examples only. Feel free to create the right
   </tr>
 </table>
 
-#### 1 Week Pacing
-
-You can also [view this in a Trello board here](https://trello.com/invite/b/U7Exj4XJ/cb991c85cedbaa30789098d6d6697470/python-programming-5-day-schedule).
-
-Day 1                                | Day 2                               | Day 3                                 | Day 4                                        | Day 5: Data Option                       | Day 5: Web Dev Option                    | Day 6 (Select the option for your track)             |
------------------------------------  | ----------------------------------- | ------------------------------------- | -------------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------------------- |
-[:30] [Course Introductions][1-1A]   | [:30] Day 2 Kickoff                 | [:30] Day 3 Kickoff                   | [:30] Day 4 Kickoff                          | [:30] Day 5: Data Kickoff                | [:30] Day 5: Web Dev Kickoff             | [:30] [Summary Kickoff, Data][6-1A]                  | 
-[1:00] [Defining Variables][1-1B]    | [1:30] [Functions][2-1B]            | [:30] [Inheritance][3-1B]             | [:15] [Intermediate Python Discussion][4-1B] | [:45] [Intro to Python for Data][5-1B]   | [:30] [Intro to Web Dev in Python][5-2B] | [:30] [Summary Kickoff, Web][6-1B]                   |           
-[:30] [Python Installations][1-1C]   | [:15] Break                         | [:15] Break                           | [:15] Break                                  | [:15] Break                              | [:30] [Intro to Flask][5-2C]             | [2:00] [In-Class: Final Project Workshop, Web][6-1C] |
-[:15] Break                          | [:45] [Advanced Arguments][2-1C]    | [1:30] [Lab #3: OOP][3-1C]            | [:30] [Scripting][4-1C]                      | [1:00] [Pandas 1][5-1C]                  | [:15] Break                              | [2:00] [In-Class: Final Project Workshop, Web][6-1D] |
-[1:00] [Lab #1: Fundamentals][1-1D]  | [1:00] Lunch                        | [:15] Mid-Week Check-in               | [:30] [Code Abstraction][4-1D]               | [1:00] Lunch                             | [1:15] [Styling Flask][5-2D]             | [1:00] Lunch                                         |
-[1:00] Lunch                         | [1:30] [Lab #2: Control Flow][2-1D] | [1:00] Lunch                          | [1:00] Lunch                                 | [:45] [Data Visualization][5-1D]         | [1:00] Lunch                             | [2:00] [Project Presentations, Data][6-1E]           |
-[1:00] [Conditionals][1-1E]          | [:30] [Dictionaries][2-1E]          | [:30] [Variable Scope][3-1D]          | [:45] [Modules & Libraries][4-1E]            | [1:00] [Plots and Charts][5-1E]          | [1:00] [Flask Variables][5-2E]           | [2:00] [Project Presentations, Web][6-1F]            |
-[:15] Break                          | [:45] [Sets & Tuples][2-1F]         | [:15] Break                           | [:15] Break                                  | [:45] [Pandas 2][5-1F]                   | [:15] Break                              | [:30] [Wrap-up & Celebrations, Data][6-1G]           |
-[:30] [Loops][1-1G]                  | [:45] [Classes][2-1G]               | [:45] [Debugging Principles][3-1F]    | [1:30] [Lab #5: Intermediate Python][4-1G]   | [1:15] [Lab #6: Data Version][5-1G]      | [:30] [APIs and Requests][5-2G]          | [:30] [Wrap-up & Celebrations, Web][6-1H]            |
-[:30] In-class HW/Review Time        | [:15] End-of-Day Recap              | [1:00] [Lab #4: Debugging][3-1G]      | [:15] Final Project Discussion               | [:30] [End-of-Day Recap][5-1H]           | [1:15] [Lab #6: Web Version][5-2H]       | --                                                   |
-[:30] End-of-Day Recap               |  --                                 | [:30] In-class HW/Review Time         | [:30] End-of-Day Recap                       | --                                       | [:30] [End-of-Day Recap][5-2I]           | --                                                   |
- --                                  |  --                                 | [:30] End-of-Day Recap                |  --                                          | --                                       | --                                       | --                                                   |
-
-[1-1A]: unit-1-variables/instructor-resources/01-welcome
-[1-1B]: unit-1-variables/instructor-resources/02-variables
-[1-1C]: unit-1-variables/instructor-resources/03-local-python
-[1-1D]: unit-1-variables/instructor-resources/04-unit-lab-1
-[1-1E]: unit-2-control-flow/instructor-resources/05-conditionals
-[1-1F]: unit-2-control-flow/instructor-resources/06-lists
-[1-1G]: unit-2-control-flow/instructor-resources/07-loops  
-
-[2-1B]: unit-2-control-flow/instructor-resources/08-functions
-[2-1C]: unit-2-control-flow/instructor-resources/09-args
-[2-1D]: unit-2-control-flow/instructor-resources/10-unit-lab-2
-[2-1E]: unit-3-oop/instructor-resources/11-dictionaries
-[2-1F]: unit-3-oop/instructor-resources/12-sets-tuples
-[2-1G]: unit-3-oop/instructor-resources/13-classes
-
-[3-1B]: unit-3-oop/instructor-resources/14-inheritance
-[3-1C]: unit-3-oop/instructor-resources/15-unit-lab-3
-[3-1D]: unit-4-troubleshooting/instructor-resources/16-variable-scope
-[3-1E]: unit-4-troubleshooting/instructor-resources/17-intermediate-variables
-[3-1F]: unit-4-troubleshooting/instructor-resources/18-debugging
-[3-1G]: unit-4-troubleshooting/instructor-resources/19-unit-lab-4
-
-[4-1B]: unit-5-intermediate/instructor-resources/20-intermediate-intro
-[4-1C]: unit-5-intermediate/instructor-resources/21-scripting
-[4-1D]: unit-5-intermediate/instructor-resources/22-code-abstraction
-[4-1E]: unit-5-intermediate/instructor-resources/23-modules
-[4-1F]: unit-5-intermediate/instructor-resources/24-apis
-[4-1G]: unit-5-intermediate/instructor-resources/25-unit-lab-5
-
-[5-1B]: unit-6-pandas/instructor-resources/01-ds-intro
-[5-1C]: unit-6-pandas/instructor-resources/02-pandas-i
-[5-1D]: unit-6-pandas/instructor-resources/03-data-viz
-[5-1E]: unit-6-pandas/instructor-resources/04-plotting-with-pandas
-[5-1F]: unit-6-pandas/instructor-resources/05-pandas-ii
-[5-1G]: unit-6-pandas/instructor-resources/06-pandas-unit-lab
-[5-1H]: unit-6-pandas/instructor-resources/07-next-steps
-
-[5-2B]: unit-6-flask/instructor-resources/01-web-dev-intro
-[5-2C]: unit-6-flask/instructor-resources/02-flask
-[5-2D]: unit-6-flask/instructor-resources/03-styling-flask
-[5-2E]: unit-6-flask/instructor-resources/04-flask-routing
-[5-2F]: unit-6-flask/instructor-resources/05-flask-templates
-[5-2G]: unit-6-flask/instructor-resources/06-flask-apis
-[5-2H]: unit-6-flask/instructor-resources/07-flask-unit-lab
-[5-2I]: unit-6-flask/instructor-resources/08-next-steps
-
-[6-1A]: unit-7-data-wrap-up/instructor-resources/01-review  
-[6-1B]: unit-7-web-dev-wrap-up/instructor-resources/01-review  
-[6-1C]: unit-7-data-wrap-up/instructor-resources/02-project
-[6-1D]: unit-7-web-dev-wrap-up/instructor-resources/02-project
-[6-1E]: unit-7-data-wrap-up/instructor-resources/02-project
-[6-1F]: unit-7-web-dev-wrap-up/instructor-resources/02-project
-[6-1G]: unit-7-data-wrap-up/instructor-resources/03-summary
-[6-1H]: unit-7-web-dev-wrap-up/instructor-resources/03-summary 
 
 Day      | Suggested Homework 
 -------- | --------- 
