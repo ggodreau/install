@@ -78,7 +78,7 @@ Windows has no native git support, so it must be downloaded from [here](https://
 <ul>
   <li>
     <details>
-      <summary>First, head over to [python.org](https://www.python.org/downloads/windows/). Click on the latest release for *Python 3* (do not use Python 2!!).</summary>
+      <summary>First, head over to <a href="https://www.python.org/downloads/windows/">python.org</a>. Click on the latest release for *Python 3* (do not use Python 2!!).</summary>
       <p align="center"><img src="./assets/py1.png" width="800"></p>
     </details>
   </li>
@@ -90,7 +90,7 @@ Windows has no native git support, so it must be downloaded from [here](https://
   </li>
   <li>
     <details>
-    <summary>Select a location to save the file to. Here, I've saved the file to my desktop. If you'd like to verify that the file downloaded correctly, you can run an [md5 checksum](https://en.wikipedia.org/wiki/Md5sum) on the file by using `md5sum.exe` (this comes bundled with gitbash) and verify the returned string (here shown ending in `be3e`) matches the checksum displayed on the webpage.</summary>
+    <summary>Select a location to save the file to. Here, I've saved the file to my desktop. If you'd like to verify that the file downloaded correctly, you can run an <a href="https://en.wikipedia.org/wiki/Md5sum">md5 checksum</a> on the file by using `md5sum.exe` (this comes bundled with gitbash) and verify the returned string (here shown ending in `be3e`) matches the checksum displayed on the webpage.</summary>
     <p align="center"><img src="./assets/py3.png" width="800"></p>
     </details>
   </li>
