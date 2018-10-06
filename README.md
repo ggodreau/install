@@ -78,13 +78,13 @@ Windows has no native git support, so it must be downloaded from [here](https://
 <ul>
   <li>
     <details>
-      <summary>First, head over to <a href="https://www.python.org/downloads/windows/">python.org</a>. Click on the latest release for *Python 3* (do not use Python 2!!).</summary>
+      <summary>First, head over to <a href="https://www.python.org/downloads/windows/">python.org</a>. Click on the latest release for <b>Python 3</b> (do not use Python 2!!).</summary>
       <p align="center"><img src="./assets/py1.png" width="800"></p>
     </details>
   </li>
   <li>
     <details>
-    <summary>That will bring you to this page. Click on the *Windows x86-64 executable installer* link.</summary>
+    <summary>That will bring you to this page. Click on the <b>Windows x86-64 executable installer</b> link.</summary>
     <p align="center"><img src="./assets/py2.png" width="800"></p>
     </details>
   </li>
@@ -96,23 +96,113 @@ Windows has no native git support, so it must be downloaded from [here](https://
   </li>
   <li>
     <details>
-    <summary>Run the installer by double clicking on it. *Uncheck* 'Add Python 3.x to PATH'. Click on 'Customize installation'.</summary>
+    <summary>Run the installer by double clicking on it. <b>Uncheck</b> 'Add Python 3.x to PATH'. Click on 'Customize installation'.</summary>
     <p align="center"><img src="./assets/py5.png" width="800"></p>
     </details>
   </li>
   <li>
     <details>
-    <summary>*Check* 'Add Python to environment variables'. *This is very important!!!* Your install location should be <code><Drive letter>:\Users\<username>\AppData\Local\Programs\Python\Python37</code>. </summary>
+    <summary><b>Check</b> 'Add Python to environment variables'. <b>This is very important!!!</b> Your install location should be <code><Drive letter>:\Users\<username>\AppData\Local\Programs\Python\Python37</code>. </summary>
     <p align="center"><img src="./assets/py6.png" width="800"></p>
     </details>
   </li>
   <li>
     <details>
-    <summary>Your installation should display the below screen if successful. You do *not* need to disable path length limit.</summary>
+    <summary>Your installation should display the below screen if successful. You do <b>not</b> need to disable path length limit.</summary>
     <p align="center"><img src="./assets/py7.png" width="800"></p>
     </details>
   </li>
-</ul>
+  <li>
+    <details>
+    <summary>Run <code>which python</code> to verify the installation location (it should be in <code><Drive letter>:/Users/<username>/AppData/Local/Programs/Python/Python37/python</code>). Verify your python version is 3.x.x with <code>python -V</code>. Verify your pip package manager is installed with <code>pip -V</code>. Don't worry about the version of pip - we'll update it in the next step. </summary>
+    <p align="center"><img src="./assets/py8.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+    <summary>Update your pip version to the latest one with <code>python -m pip install --upgrade pip</code></summary>
+    <p align="center"><img src="./assets/py9.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+    <summary>Install virtualenvwrapper, an environment manager for python, by typing <code>pip install virtualenvwrapper</code></summary>
+    <p align="center"><img src="./assets/py10.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+    <summary>Upon completion, you need to add a few lines to your <code>~/.bash_profile</code> file. This will set environment variables and paths for the virtualenvwrapper tool.</summary>
+    <p align="center"><img src="./assets/py11.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+    <summary>When opened, insert the following code block. Press <code>i</code> to enter insert mode before pasting the text below. When finished, press <code>Esc</code> followed by <code>wq</code>. Press <code>Enter</code> to write the changes to file.</summary>
+    <code>
+      export WORKON_HOME=$HOME/.virtualenvs
+      export PROJECT_HOME=$HOME/Devel
+      source ~/AppData/Local/Programs/Python/Python37/Scripts/virtualenvwrapper.sh
+    </code><br>
+    <p align="center"><img src="./assets/py12.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    When finished, type <code>source ~/.bash_profile</code> to deploy the above changes. You may see some output on your terminal screen for the environment variables and directories being created. This is normal and a one-time occurrence.
+  </li>
+  <li>
+    <details>
+    <summary>Type <code>mkvirtualenv <your environment name></code>. The envrironment name can be anything you'd like. Here, we're using an environment named <code>utc</code>.</summary>
+    <p align="center"><img src="./assets/py13.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+    <summary> Now comes the big installation! Be sure you have activated your environment. It will display <code>(<your environment name>)</code> above your terminal. Notice how we have <code>(utc)</code> above our terminal prompt here, denoting we are in the utc virtual environment.</summary>
+    <code>pip install jupyter pandas matplotlib seaborn requests openpyxl pytime pdfminer.six PyPDF4</code><br>
+    <p align="center"><img src="./assets/py14.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+    <summary>It make take a few minutes to install everything. When finished, you should have a screen that looks like this. Run <code>echo $?</code> at the prompt. If the returned value is <code>0</code>, you have successfully installed all your packages!</summary>
+    <p align="center"><img src="./assets/py15.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+    <summary>Now start your jupyter notebook! Type in <code>jupyter notebook</code> in your terminal. You should see the following window automatically pop up in your system's default browser.</summary>
+    <p align="center"><img src="./assets/py16.png" width="800"></p>
+    <br>
+    <p align="center"><img src="./assets/py17.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+    <summary>Open a new notebook by clicking on New -> Python 3. Make sure it says 'Python 3' and <b>not</b> 'Python 2'.</summary>
+    <p align="center"><img src="./assets/py18.png" width="800"></p>
+    </details>
+  </li>
+  <li>
+    <details>
+    <summary>Finally, test all the dependent libraries and python version using the following code.</summary>
+    <code>
+      import pandas as pd
+      import matplotlib
+      import seaborn
+      import requests
+      import openpyxl
+      import pytime
+      import pdfminer
+      import PyPDF4
+      !python -V
+    </code>
+    <br>
+    <p align="center"><img src="./assets/py19.png" width="800"></p>
+
+    The returned results should be <code>Python 3.x.x</code> with no errors (no text in red).
+    </details>
+  </li>
 
 ## Part 2. Anaconda Installation
 
