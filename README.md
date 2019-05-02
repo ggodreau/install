@@ -1,14 +1,14 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Installation 
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Installation
 
 ## Part 1. Operating System
 
 You can be a data scientist on any operating system. In general, most professionals choose a UNIX-type OS; typically Apple's OS X or a popular Linux distribution, such as Ubuntu. If you're already using Mac or Linux, great! Skip ahead to Part 2 and get started with your installs.
 
-However, there is a growing need for (and interest in) data science in industries that traditionally use PCs. If you're on a Windows machine, that's ok too! You'll just need to install an additional piece of software to provide a development environment similar to OS X and Linux. 
+However, there is a growing need for (and interest in) data science in industries that traditionally use PCs. If you're on a Windows machine, that's ok too! You'll just need to install an additional piece of software to provide a development environment similar to OS X and Linux.
 
 Click [here to download the Git Bash shell](https://gitforwindows.org/). This will allow you to emulate most of the common commands and functions native to OS and Linux systems.
 
-## Git Bash Download
+## Terminal
 
 ### Mac
 
@@ -17,13 +17,13 @@ Click [here to download the Git Bash shell](https://gitforwindows.org/). This wi
 - The returned version of git should be a major version of 2.x.x or greater, for example:
 
 ```bash
-[greg@13z]$ git --version
+[person@computer]$ git --version
 git version 2.17.1
 ```
 
 ### Windows
 
-Windows has no native git support, so it must be downloaded from [here](https://git-scm.com/download/win)
+Windows has no native git or terminal support. To achieve equivalent functionality, a program named GitBash must be downloaded from [here.](https://git-scm.com/download/win)
 
 <ol>
   <li>
@@ -73,7 +73,7 @@ Windows has no native git support, so it must be downloaded from [here](https://
 
 ## Base Python Installation
 
-### Windows
+### Windows (Mac & Linux similar)
 
 <ol>
   <li>
@@ -206,36 +206,7 @@ Windows has no native git support, so it must be downloaded from [here](https://
   </li>
 </ol>
 
-## Part 2. Anaconda Installation
-
-In this course, we'll be working closely with tools that utilize the Python programming language. Anaconda is a popular cross-platform tool that helps install and manage Python-related data science libraries.
-
-1) [Download Anaconda](https://docs.anaconda.com/anaconda/install/) and follow the installation instructions package for your operating system. Please make sure that you're downloading the latest stable version for Python 3! Most modern computers will use 64-bit installation. When in doubt, use 32-bit as it is backward compatible.<br>
-
-2) Agree to the terms and let Anaconda complete its default installation. <br>
-
-3) Once installed, navigate to your command line (on OS X, this is the terminal application; on Windows, use your new `Git Bash` shell) and confirm that it's installed by typing in the `which conda` command. <br>
-
-You should see:
-
-```bash
-$ which conda
-/Users/USERNAME/anaconda3/bin/conda
-```
-  - If the command line returns a file path (like in the example below), you've successfully installed Anaconda.
-  - If the command line returns nothing (and sends you back to the prompt), check in with your instructor.
-    - **Note**: Your file path may look different.
-    - **Note**: You'll often see commands that look like: `$ which conda` above — when you see those, type in everything **except** the dollar sign. The dollar sign is used to denote a code prompt in your window.
-
-4) Once installed, run the following command to ensure that some frequently used libraries are installed. Anaconda may also update your packages at this time (which is OK!). You will be installing the file in this repository, which can be downloaded [here](./assets/utc_env.txt). <br>
-
-First, create a new virtual environment, using the above file to specify packages. Make sure you've downloaded the `utc_env.txt` file the working directory of the bash shell. To check the working directory of the shell, use `pwd`.:
-
-```bash
-conda create -n utc -c conda-forge --file ./utc_env.txt
-```
-
-## Part 3. Git Configuration (OPTIONAL)
+## Part 2. Git Configuration
 
 1) To check if your Git installation was successful, open a new terminal window and try to run Git from the command line: <br>
 
@@ -261,7 +232,7 @@ These identifiers will be added to your commits and show up when you push your c
 
 ### Optional: Set Up SSH for Easier Remote Connection
 
-While you can connect your local repositories (the work on your laptop) to remote repositories (those stored on [GitHub](https://www.github.com)) without much additional effort, this will prompt you to input your username and password quite  frequently. However, there's an alternative known as SSH, which will let you create a file on your computer that will authenticate you to [GitHub](https://www.github.com) without entering your username and password over and over again. 
+While you can connect your local repositories (the work on your laptop) to remote repositories (those stored on [GitHub](https://www.github.com)) without much additional effort, this will prompt you to input your username and password quite  frequently. However, there's an alternative known as SSH, which will let you create a file on your computer that will authenticate you to [GitHub](https://www.github.com) without entering your username and password over and over again.
 
 **Note**: Remember, these steps are optional. If you're having trouble, feel free to chat w your instructor!
 
